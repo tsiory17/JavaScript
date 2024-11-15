@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+ 
+  <div id = "todo"> Todo  </div>
+  <form>
+    <div>
+      <label for="Name" >Name</label>
+      <input type="text" id="Name" >
+    </div>
+
+    <div>
+      <label for="Description">Description</label>
+      <input type="text" id="Description" >
+    </div>
+
+    <div>
+      <label for="Date">Date</label>
+      <input type="date" id="Date" >
+    </div>
+
+    <button type="submit">Ajouter</button>
+  </form>
+
+<table id="table_todo">
+ 
+  <tr>
+   <th>Nom</th>
+   <th>Description</th>
+   <th>Date</th>
+   <th colspan="2">Action</th>
+  </tr>
+
+  <tr>
+    <td>Faire les courses</td>
+    <td>Aller au Marche</td>
+    <td>2024-09-07</td>
+    <td>Supprimer</td>
+    <td>Mettre a jour</td>
+  </tr>
+
+
+</table>
+
+<script src="script.js" ></script>
+</body>
+</html>

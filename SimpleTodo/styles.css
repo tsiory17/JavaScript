@@ -1,0 +1,43 @@
+form {
+  display: block;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+form div{
+display: block;
+}
+
+form div input{
+  display: inline-block;
+}
+
+form div label{
+  display: inline-block;
+  width: 100px;;
+  background-color: red;
+}
+
+form button{
+  margin-left: 150px;
+}
+
+#todo{
+  display: inline-block;
+  width: 100px;
+  background-color: aqua;
+  border: solid 1px ;
+  margin-left: 325px;
+}
+
+#table_todo{
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th,tr, td {
+  border: solid 1px;
+  border-collapse:collapse;
+  width: 200px;
+}
+tr{
+  background-color: red;
+}
