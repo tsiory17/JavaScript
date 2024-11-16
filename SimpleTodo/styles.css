@@ -17,9 +17,6 @@ form div label{
   background-color: red;
 }
 
-form button{
-  margin-left: 150px;
-}
 
 #todo{
   display: inline-block;

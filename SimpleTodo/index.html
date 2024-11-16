@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TODO</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="button.css">
 </head>
 <body>
   
@@ -26,7 +27,11 @@
       <input type="date" id="Date" >
     </div>
 
-    <button type="submit">Ajouter</button>
+    <div id="btnForm">
+      <button type="submit" class="visibleBtn">Ajouter</button>
+      <button type="submit" class="hiddenBtn">Update</button>
+      <button type="submit" class="hiddenBtn">Cancel</button>
+    </div>
   </form>
 
 <table id="table_todo">
@@ -38,7 +43,7 @@
    <th colspan="2">Action</th>
   </tr>
 
-  <tr>
+  <tr class = "test">
     <td>Faire les courses</td>
     <td>Aller au Marche</td>
     <td>2024-09-07</td>

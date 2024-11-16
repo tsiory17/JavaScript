@@ -1,0 +1,40 @@
+form button{
+  margin-left: 150px;
+  width: 100px;
+}
+
+button{
+  display: inline-block;
+}
+
+
+#btnForm{
+  display: inline-block;
+  position: relative;
+}
+
+.visibleBtn{
+  display: inline-block;
+}
+.hiddenBtn{
+  display: none;
+}
+
+
+#btnForm button:nth-child(1){
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+#btnForm button:nth-child(2){
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#btnForm button:nth-child(3){
+  position: absolute;
+  left: 150px;
+  top: 0;
+ 
+}
